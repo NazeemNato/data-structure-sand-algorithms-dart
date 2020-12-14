@@ -2,5 +2,5 @@ import 'dart:io';
 
 void main(){
 var str = stdin.readLineSync();
-print(str.split('').join(" "));
+print(str.split(' ').join("\n"));
 }
